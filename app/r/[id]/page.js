@@ -50,13 +50,13 @@ export default function RedirectPage() {
 	return (
 		<>
 			<Script
-				src="//prankhistorian.com/db09ce4b32262d0cf923996047c6cc6f/invoke.js"
+				src="https://pl28223907.effectivegatecpm.com/db09ce4b32262d0cf923996047c6cc6f/invoke.js"
 				async
 				data-cfasync="false"
 				strategy="beforeInteractive"
 			/>
 			<Script
-				src="//prankhistorian.com/ea/f3/1e/eaf31ece634a338a6c015b119d670fe2.js"
+				src="https://pl28223907.effectivegatecpm.com/db09ce4b32262d0cf923996047c6cc6f/invoke.js"
 				async
 				strategy="beforeInteractive"
 			/>
@@ -103,3 +103,4 @@ export default function RedirectPage() {
 		</>
 	);
 }
+
