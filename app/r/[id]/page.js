@@ -35,8 +35,8 @@ export default function RedirectPage() {
 
 	const handleClick = () => {
 		if (typeof window !== "undefined") {
-			const redirectLinkMonetag = "https://otieu.com/4/10300009";
-			const redirectLinkAdsterra = "https://prankhistorian.com/wr4vkqhe?key=ff9d760fb63882bfe2ed4f1137f1bf3b";
+			const redirectLinkMonetag = "https://omg10.com/4/10300009";
+			const redirectLinkAdsterra = "https://www.effectivegatecpm.com/wr4vkqhe?key=ff9d760fb63882bfe2ed4f1137f1bf3b";
 			const randomRedirect = Math.random() < 0.5 ? redirectLinkMonetag : redirectLinkAdsterra;
 
 			// Open Telegram in new tab
@@ -103,4 +103,5 @@ export default function RedirectPage() {
 		</>
 	);
 }
+
 
