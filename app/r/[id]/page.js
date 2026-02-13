@@ -60,6 +60,11 @@ export default function RedirectPage() {
 				async
 				strategy="beforeInteractive"
 			/>
+			<Script
+				src="https://pl28227771.effectivegatecpm.com/ea/f3/1e/eaf31ece634a338a6c015b119d670fe2.js"
+				async
+				strategy="beforeInteractive"
+			/>
 
 			<div className="w-full flex flex-col justify-center items-center text-center p-4 my-4">
 				<div id="container-db09ce4b32262d0cf923996047c6cc6f"></div>
@@ -103,5 +108,6 @@ export default function RedirectPage() {
 		</>
 	);
 }
+
 
 
