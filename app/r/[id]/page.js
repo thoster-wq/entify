@@ -14,7 +14,7 @@ export default function RedirectPage() {
 	// Initialize countdown
 	useEffect(() => {
 		if (typeof window !== "undefined") {
-			const randomTime = Math.floor(Math.random() * 7) + 4; // 4–10 sec
+			const randomTime = Math.floor(Math.random() * 5) + 4; // 4–8 sec
 			setCounter(randomTime);
 		}
 	}, []);
