@@ -23,6 +23,7 @@ export default function RedirectPage() {
 	useEffect(() => {
 		if (counter === null || counter === 0) {
 			setReady(counter === 0);
+			handleClick();
 			return;
 		}
 
@@ -35,29 +36,16 @@ export default function RedirectPage() {
 
 	const handleClick = () => {
 		if (typeof window !== "undefined") {
-			const redirectLinkMonetag = "https://omg10.com/4/10300009";
-			const redirectLinkAdsterra = "https://www.effectivegatecpm.com/wr4vkqhe?key=ff9d760fb63882bfe2ed4f1137f1bf3b";
-			const randomRedirect = Math.random() < 0.5 ? redirectLinkMonetag : redirectLinkAdsterra;
-
-			// Open Telegram in new tab
 			window.open(`https://t.me/entifyshare_bot?start=${id}`, "_blank");
-
-			// Redirect current tab to ad link
-			window.location.href = randomRedirect;
 		}
 	};
 
 	return (
 		<>
 			<Script
-				src="https://pl28223907.effectivegatecpm.com/db09ce4b32262d0cf923996047c6cc6f/invoke.js"
+				src="https://pl28223907.profitablecpmratenetwork.com/db09ce4b32262d0cf923996047c6cc6f/invoke.js"
 				async
 				data-cfasync="false"
-				strategy="beforeInteractive"
-			/>
-			<Script
-				src="https://pl28227771.effectivegatecpm.com/ea/f3/1e/eaf31ece634a338a6c015b119d670fe2.js"
-				async
 				strategy="beforeInteractive"
 			/>
 
