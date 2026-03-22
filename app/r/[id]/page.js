@@ -23,7 +23,6 @@ export default function RedirectPage() {
 	useEffect(() => {
 		if (counter === null || counter === 0) {
 			setReady(counter === 0);
-			handleClick();
 			return;
 		}
 
